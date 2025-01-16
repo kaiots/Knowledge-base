@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: База знаний
+site_author: (C) 2024-2025, Helicon.ru
+site_description: Нажмите старт
+site_url: https://inst.kaiot.ru
+
+theme:
+  name: material
+  language: ru
