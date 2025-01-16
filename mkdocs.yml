@@ -38,7 +38,7 @@ theme:
     - navigation.top #Кнопка "Вернуться наверх"
     - search.suggest #наиболее вероятное завершение последнего слова
     - content.tooltips #Всплывающие подсказки
-    - toc.follow #Якорь, следующийза собой
+    - toc.follow #Якорь, следующийза собой 
 
 
 markdown_extensions: 
