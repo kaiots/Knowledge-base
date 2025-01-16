@@ -6,6 +6,10 @@ site_url: https://inst.kaiot.ru
 extra_css:
   - stylesheets/extra.css
 
+watch:
+  - includes
+
+
 theme:
   name: material
   custom_dir: material/overrides
@@ -37,7 +41,18 @@ theme:
     - toc.follow #Якорь, следующийза собой
 
 
-
+markdown_extensions: 
+  - pymdownx.keys #красивые кнопки ctr alt del
+  - admonition #Предостережение
+  - pymdownx.details # Подробные сведения
+  - attr_list # добавлять html элементы к любому элементы :D
+  - md_in_html
+  #- pymdownx.snippets:
+  #   auto_append:
+  #    - includes/abbreviations.md
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 
 nav:
@@ -46,9 +61,20 @@ nav:
   - ЭЦП:
     - Выпуск сертификата: ecp/releaseecp/release.md
     - Обновление сертификата: ecp/updateecp/update.md
-
-
-
+  - Класификатор полномочий МЧД:
+    - m4d/index.md
+    - Диадок: m4d/diadoc.md
+    - Центральный банк: m4d/cb.md
+    - Росалкогольрегулирование: m4d/alco.md
+    - МинТруд: m4d/ministryoflabor.md
+    - ГосУслуги: m4d/gosuslugi.md
+  - Инструкции:
+    - Очистка Кэша браузера: instructions/cache/cache.md
+    - Смена пароля Рутокен: instructions/pincode/pincode.md
+    - Экспорт открытого ключа: instructions/openkey/openkey.md
+  - Статьи:
+    - Статья1: articles/1/articles1.md
+    - Статья2: articles/2/articles2.md
 
 
 
