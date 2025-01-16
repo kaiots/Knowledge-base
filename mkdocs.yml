@@ -3,6 +3,72 @@ site_author: (C) 2024-2025, Helicon.ru
 site_description: Нажмите старт
 site_url: https://inst.kaiot.ru
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
+  custom_dir: material/overrides
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Переключитесь в темный режим
+    - scheme: slate
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Переключитесь в светлый режим
+  font:
+    text: Roboto
+    code: Roboto Mono  
   language: ru
+  logo: assets/logo/1.jpg
+  favicon: assets/logo/1.jpg
+  features:
+    - navigation.tabs #Вкладки навигации верхний уровень
+    - toc.integrate #оглавление часть левой стороны
+    - navigation.top #Кнопка "Вернуться наверх"
+    - search.suggest #наиболее вероятное завершение последнего слова
+    - content.tooltips #Всплывающие подсказки
+    - toc.follow #Якорь, следующийза собой
+
+
+
+
+
+nav:
+  - Главная: index.md
+  - Приступаем к работе: index2.md
+  - ЭЦП:
+    - Выпуск сертификата: ecp/releaseecp/release.md
+    - Обновление сертификата: ecp/updateecp/update.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/angellist
+      name: Help
+      link: https://portal.helicon.ru/company/personal/user/15/
+  consent:
+    title: Cookie consent
+    description: >- 
+      Мы используем файлы cookie для распознавания ваших повторных посещений и предпочтений, а
+      также для оценки эффективности нашей документации и
+      того, находят ли пользователи то, что ищут. Своим согласием вы помогаете нам
+      улучшить нашу документацию.
