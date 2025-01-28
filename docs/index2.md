@@ -26,7 +26,7 @@ hide:
 
 </p>
 
-<a href="/quickstart/run_a_model/" class="button">Get started with our "Run your first model" guide</a>
+
 
 <div class="grid cards" markdown>
 

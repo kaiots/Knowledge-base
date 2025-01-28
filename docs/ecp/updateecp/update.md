@@ -151,3 +151,7 @@ title: Обновление сертификата КЭП на физ лицо
 
 
 <marquee direction="right">МММ Danone.</marquee>
+<marquee direction="right">МММ Danone.</marquee>
+
+<button class="favorite styled" type="button">Add to favorites</button>
+
