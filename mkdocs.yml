@@ -30,8 +30,8 @@ theme:
     text: Roboto
     code: Roboto Mono  
   language: ru
-  logo: assets/logo/1.jpg
-  favicon: assets/logo/1.jpg
+  logo: assets/logo/2.png
+  favicon: assets/logo/2.png
   features:
     - navigation.tabs #Вкладки навигации верхний уровень
     - toc.integrate #оглавление часть левой стороны
