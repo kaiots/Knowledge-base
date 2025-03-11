@@ -13,11 +13,6 @@ hide:
 Вы находитесь в базе знаний Компании Helicon. На этом сайте размещены инструкции.
 </p>
 <p style="font-size:1.5em;text-align: center">
-Вы можете связаться с службой технической поддержки
-</p>
-<p style="font-size:1.5em;text-align: center">
-по телефону: <a href="tel:+7(499)705-50-50">+7 (499) 705-50-50 доб(1970)</a><br />по e-mail: <a href="mailto:help@helicon.ru">help@helicon.ru</a>
-</p>
 
 !!! info ""
 <p style="font-size:2.0em;text-align: center">
