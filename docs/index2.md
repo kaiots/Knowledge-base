@@ -12,10 +12,8 @@ hide:
 <p style="font-size:1.5em;text-align: center">
 Вы находитесь в базе знаний Компании Helicon. На этом сайте размещены инструкции.
 </p>
-<p style="font-size:1.5em;text-align: center">
 
 !!! info ""
-
 <p style="font-size:2.0em;text-align: center">
 
 Выпуск или обновление ЭЦП
